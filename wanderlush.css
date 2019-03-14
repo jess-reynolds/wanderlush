@@ -1,0 +1,46 @@
+.hero_container {
+  display: grid;
+  width: 100vw;
+  height: 50vh;
+}
+
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.hero {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.hero_text {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.hero_text h1 {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 1);
+}
+
+.hero_text h2 {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 1);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
